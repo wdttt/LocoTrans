@@ -1,0 +1,7 @@
+Namespace(add_layer=True, batch_size=32, checkpoint='model_1', dataset='modelnet40', dropout=0.5, emb_dims=1024, epochs=250, eval=True, exp_name='modelnet40_cls', k=20, loss_consist=0.1, loss_orth=0.1, lr=0.001, model='iecnn', model_path='pretrained/model_1_so3.t7', momentum=0.9, no_cuda=False, num_points=1024, pooling='mean', rot='so3', seed=2, shift=0.2, test_batch_size=16, use_sgd=True)
+Using GPU : 0 from 4 devices
+Test, test acc: 0.899514, test avg acc: 0.867105, best test acc: 0.899514
+Test, test acc vn: 0.899514, test avg acc vn: 0.865942, best test acc vn: 0.899514
+Test, test acc fuse: 0.906402, test avg acc fuse: 0.877471, best test acc fuse: 0.906402
+Test, test acc 1: 0.914911, test avg acc 1: 0.884884, best test acc 1: 0.914911
+Test, test acc 2: 0.911669, test avg acc 2: 0.880843, best test acc 2: 0.911669
